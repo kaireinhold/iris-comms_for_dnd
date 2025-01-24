@@ -74,6 +74,7 @@ def assign_task():
         task_assigned = True  # Mark task as assigned
         task_assigned_label.config(text="Task assigned: Yes")
         assign_task_button.config(state="disabled")  # Disable "Assign Task" button after assigning
+        print(f"{current_player}'s task: {user_task}")
     else:
         task_label.config(text="No tasks left!")
 
