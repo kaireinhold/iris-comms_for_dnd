@@ -2,6 +2,7 @@ import random
 import time
 import sys
 
+#names and tasks are all just for testing at the moment.
 players = ["Kai", "Luca", "Andrew", "Jacob", "Crimson", "test1", "test2", "test3"]
 tasks = [
     f"Steal a resource from {players[random.randint(0, len(players) - 1)]} without them noticing you. If they notice you, you fail.",
