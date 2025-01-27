@@ -1,3 +1,5 @@
+#Created by Kai Reinhold (kaireinhold on GitHub)
+
 import tkinter as tk
 from tkinter import messagebox
 import random
